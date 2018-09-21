@@ -12,15 +12,15 @@
 
 * `corewar` is a [virtual machine](https://en.wikipedia.org/wiki/Virtual_machine).
 
-* `corewar` takes as arguments champions, which are binary files with `.cor` extension. `NameOfChamp.cor` is done with `asm`.
+* `corewar` takes as arguments champions, which are binary files with a `.cor` extension. `NameOfChamp.cor` is done with `asm`.
 
 * `corewar` reads binary files, writes the instructions in vitual machine memory and executes them.
 
-* `corewar` has a graphic mode done with ncurse.
+* `corewar` has a graphical mode done with ncurse.
 
 ##### about `asm`:
 
-* `asm` takes as argment a `NameOfChamp.s` and convert on bytecode file with `.cor` extension.
+* `asm` takes a `NameOfChamp.s` argument and creates a new file containing the bytecode with the `.cor` extension.
 
 * `asm` acceptes only file with `.s` extension.
 
@@ -88,7 +88,7 @@ live:   live %42
 
 - `-v levelVerbose`= 1 to 8 verbose level.
 
-- `-s`= Graphique option with ncurse.
+- `-s`= Graphic option with ncurse.
 
 - `-dump nb_cycle`= print the memory at nb_cycle then exit.
 
