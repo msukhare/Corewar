@@ -96,10 +96,10 @@ live:   live %42
 
 ## Rules of Makefile:
 
-all: compile 3 `libft.a`, `asm`, `desasm`, corewar`.
+all: compile 3 `libft.a`, `asm`, `desasm`, `corewar`.
 
 clean: delete objects
 
-fclean: call clean and delete all `libft.a`, `asm`, `desasm`, corewar`.
+fclean: call clean and delete all `libft.a`, `asm`, `desasm`, `corewar`.
 
 re: call fclean and all
