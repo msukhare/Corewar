@@ -22,13 +22,13 @@
 
 * `asm` takes a `NameOfChamp.s` argument and creates a new file containing the bytecode with the `.cor` extension.
 
-* `asm` acceptes only file with `.s` extension.
+* `asm` accepts only file with `.s` extension.
 
 ##### about `desasm`:
 
 * `desasm` takes as argument `NameOfChamp.cor` and convert on instructions file with `.s` extension.
 
-* `desasm` acceptes only file with `.cor` extension.
+* `desasm` accepts only file with `.cor` extension.
 
 ##### exemple of a `.s`:
 
