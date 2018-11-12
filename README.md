@@ -68,7 +68,7 @@ live:   live %42
 
 * Use `make` to compile `asm`, `desasm`, `corewar`.
 
-* You can compile with `make` `asm`, `desasm` or `corewar` separately by going in `src_asm` for `àsm`, `src_corewar` for `corewar`, and `src_desasm` for `desasm`.
+* You can compile with `make` `asm`, `desasm` or `corewar` separately by going in `src_asm` for `asm`, `src_corewar` for `corewar`, and `src_desasm` for `desasm`.
 
 ## Usage:
 
